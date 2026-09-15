@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "x": "413px",
+    "y": "450px",
+    "height": "116px",
+    "width": "23px",
+    "wallNo": 4,
+    "sNo": 1,
+    "Model": "HLO 5212/12W",
+    "Dimensions": "Ø170xH680mm",
+    "ListPrice": 8500.00
+  },
+  {
+    "id": 2,
+    "x": "444px",
+    "y": "504px",
+    "height": "65px",
+    "width": "27px",
+    "wallNo": 4,
+    "sNo": 2,
+    "Model": "HLO 5211/12W",
+    "Dimensions": "Ø170xH270mm",
+    "ListPrice": 6500.00
+  },
+  {
+    "id": 3,
+    "x": "485px",
+    "y": "444px",
+    "height": "124px",
+    "width": "23px",
+    "wallNo": 4,
+    "sNo": 3,
+    "Model": "HLO 5057/7W",
+    "Dimensions": "120x70xH650mm",
+    "ListPrice": 9100
+    
+  },
+  {
+    "id": 4,
+    "x": "519px",
+    "y": "479px",
+    "height": "90px",
+    "width": "32px",
+    "wallNo": 4,
+    "sNo": 4,
+    "Model": "HLO 5023/13W",
+    "Dimensions": "165x47xH400mm",
+    "ListPrice": 7650
+  },
+  {
+    "id": 5,
+    "x": "561px",
+    "y": "441px",
+    "wallNo": 4,
+    "sNo": 5,
+    "Model": "HLO 5206/12W",
+    "Dimensions": "Ø150xH610mm",
+    "ListPrice": 5000,
+    "height": "127px",
+    "width": "20px"
+  },
+  {
+    "id": 6,
+    "x": "595px",
+    "y": "512px",
+    "wallNo": 4,
+    "sNo": 6,
+    "Model": "HLO 5205/12W",
+    "Dimensions": "Ø150xH210mm",
+    "ListPrice": 3450,
+    "height": "66px",
+    "width": "18px"
+  },
+  {
+    "id": 7,
+    "x": "627px",
+    "y": "422px",
+     "height": "134px",
+    "width": "27px",
+    "wallNo": 4,
+    "sNo": 7,
+    "Model": "HLO 5190/12W",
+    "Dimensions": "140x140xH800mm",
+    "ListPrice": 8600
+   
+  },
+  {
+    "id": 8,
+    "x": "664px",
+    "y": "500px",
+    "height": "70px",
+    "width": "29px",
+    "wallNo": 4,
+    "sNo": 8,
+    "Model": "HLO 5188/12W",
+    "Dimensions": "140x140xH300mm",
+    "ListPrice": 6400
+    
+  },
+  {
+    "id": 9,
+    "x": "699px",
+    "y": "428px",
+    "height": "126px",
+    "width": "20px",
+    "wallNo": 4,
+    "sNo": 9,
+    "Model": "HLO 5188/E27",
+    "Dimensions": "140x140xH300mm",
+    "ListPrice": 6400
+    
+  },
+  {
+    "id": 10,
+    "x": "743px",
+    "y": "470px",
+     "height": "96px",
+    "width": "18px",
+    "wallNo": 4,
+    "sNo": 10,
+    "Model": "HLO 8187/E27",
+    "Dimensions": "102x90xH500mm",
+    "ListPrice": 3650
+   
+  },
+  {
+    "id": 11,
+    "x": "770px",
+    "y": "394px",
+    "height": "155px",
+    "width": "18px",
+    "wallNo": 4,
+    "sNo": 11,
+    "Model": "HLO 5201/3W",
+    "Dimensions": "Ø12xH1000mm",
+    "ListPrice": 3600
+    
+  }
+]

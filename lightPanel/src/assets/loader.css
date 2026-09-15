@@ -1,0 +1,128 @@
+.Loader-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+svg {
+  width: 100%;
+}
+
+.Main-container {
+  width: 70px;
+  margin: 3em auto;
+}
+
+.st0 {
+  fill: #FFFF00;
+}
+
+.st1 {
+  fill: none;
+  stroke: #6c6666;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: none;
+  opacity: .5;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+#one {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: line-glow 1s .1s infinite;
+  animation: line-glow 1s .1s infinite;
+}
+
+#two {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: line-glow 1s .2s infinite;
+  animation: line-glow 1s .2s infinite;
+}
+
+#three {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: line-glow 1s .3s infinite;
+  animation: line-glow 1s .3s infinite;
+}
+
+#four {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: line-glow 1s .4s infinite;
+  animation: line-glow 1s .4s infinite;
+}
+
+#five {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: line-glow 1s .5s infinite;
+  animation: line-glow 1s .5s infinite;
+}
+
+#six {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: line-glow 1s .6s infinite;
+  animation: line-glow 1s .6s infinite;
+}
+
+#seven {
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: line-glow 1s .7s infinite;
+  animation: line-glow 1s .7s infinite;
+}
+
+#bulb-body-fill {
+  -webkit-animation: bulb-on 1s ease infinite;
+  animation: bulb-on 1s ease infinite;
+}
+
+@-webkit-keyframes line-glow {
+  10% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@keyframes line-glow {
+  10% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bulb-on {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bulb-on {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,16 @@
+/* App.css */
+.light-panel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.light-panel div {
+  text-align: center;
+  cursor: pointer;
+}
+
+.light-details img {
+  width: 200px;
+  margin-top: 20px;
+}

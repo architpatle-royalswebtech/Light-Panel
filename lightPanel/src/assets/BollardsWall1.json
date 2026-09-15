@@ -1,0 +1,87 @@
+[
+  {
+    "wallNo": 1,
+    "sNo": 1,
+    "Model": "KL-4262/12W",
+    "Dimensions": "Ø210*493mm",
+    "width": "21px",
+    "height": "93px",
+    "x": "811px",
+    "y": "488px",
+    "ListPrice": null
+  },
+  {
+    "wallNo": 1,
+    "sNo": 2,
+    "Model": "KL-4748/12W",
+    "Dimensions": "Sq. 206*500mm",
+    "width": "40px",
+    "height": "102px",
+    "x": "725px",
+    "y": "474px",
+    "ListPrice": null
+
+  },
+  {
+    "wallNo": 1,
+    "sNo": 3,
+    "Model": "KL-5582/16W",
+    "Dimensions": "Ø168*703mm",
+    "width": "22px",
+    "height": "120px",
+    "x": "653px",
+    "y": "450px",
+    "ListPrice": null
+
+  },
+  {
+    "wallNo": 1,
+    "sNo": 4,
+    "Model": "KL-4543/E27",
+    "Dimensions": "Ø250*950mm",
+    "width": "38px",
+    "height": "146px",
+    "x": "570px",
+    "y": "429px"
+  },
+  {
+    "wallNo": 1,
+    "sNo": 5,
+    "Model": "KL-4535/E27",
+    "Dimensions": "Ø293*1045mm",
+    "width": "45px",
+    "height": "132px",
+    "x": "486px",
+    "y": "436px"
+  },
+  {
+    "wallNo": 1,
+    "sNo": 6,
+    "Model": "KL-7399/12W",
+    "Dimensions": "200*110*1000mm",
+    "width": "44px",
+    "height": "138px",
+    "x": "407px",
+    "y": "435px"
+  },
+  {
+    "wallNo": 1,
+    "sNo": 7,
+    "Model": "KL-4778/24W",
+    "Dimensions": "Ø106*975mm",
+    "width": "34px",
+    "height": "146px",
+    "x": "339px",
+    "y": "420px"
+  },
+  {
+    "wallNo": 1,
+    "sNo": 8,
+    "Model": "KL-5383/40W",
+    "Dimensions": "692*Ø107*770mm",
+    "width": "80px",
+    "height": "120px",
+    "x": "211px",
+    "y": "478px"
+  }
+]

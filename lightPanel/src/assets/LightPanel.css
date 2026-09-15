@@ -1,0 +1,48 @@
+.mainDiv {
+  position: relative;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cart-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+
+.quantity-wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 9999px;
+  background-color: #f1f1f1;
+  padding: 2px 8px;
+}
+
+.quantity-wrapper button {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #555;
+}
+
+.quantity-wrapper input {
+  width: 30px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: #333;
+}
+

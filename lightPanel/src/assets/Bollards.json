@@ -1,0 +1,119 @@
+[
+  {
+    "wallNo": 2,
+    "sNo": 1,
+    "Model": "NL 4252 C (10W/3K)",
+    "Dimensions": "H:700mm",
+    "ListPrice": 4810,
+    "x": "395px",
+    "y": "441px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 2,
+    "Model": "NL 4252 B (10W/3K)",
+    "Dimensions": "H:500mm",
+    "ListPrice": 3960,
+    "x": "424px",
+    "y": "470px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 3,
+    "Model": "NL 4251 C (10W/3K)",
+    "Dimensions": "H:700mm",
+    "ListPrice": 4810,
+    "x": "466px",
+    "y": "436px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 4,
+    "Model": null,
+    "Dimensions": null,
+    "ListPrice": null,
+    "x": "498px",
+    "y": "455px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 5,
+    "Model": null,
+    "Dimensions": null,
+    "ListPrice": null,
+    "x": "535px",
+    "y": "438px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 6,
+    "Model": "NL 4255 (12W/3K)",
+    "Dimensions": "H:600mm",
+    "ListPrice": 5770,
+    "x": "568px",
+    "y": "450px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 7,
+    "Model": null,
+    "Dimensions": null,
+    "ListPrice": null,
+    "x": "605px",
+    "y": "454px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 8,
+    "Model": "NL 4253 (12W/3K)",
+    "Dimensions": "H:600mm",
+    "ListPrice": 6670,
+    "x": "640px",
+    "y": "455px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 9,
+    "Model": null,
+    "Dimensions": null,
+    "ListPrice": null,
+    "x": "677px",
+    "y": "454px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 10,
+    "Model": "NL 4254 (12W/3K)",
+    "Dimensions": "H:600mm",
+    "ListPrice": 5770,
+    "x": "711px",
+    "y": "453px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 11,
+    "Model": null,
+    "Dimensions": null,
+    "ListPrice": null,
+    "x": "741px",
+    "y": "449px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 12,
+    "Model": "NL 4258 (12W/3K)",
+    "Dimensions": "H:600mm",
+    "ListPrice": 5770,
+    "x": "782px",
+    "y": "454px"
+  },
+  {
+    "wallNo": 2,
+    "sNo": 13,
+    "Model": null,
+    "Dimensions": null,
+    "ListPrice": null,
+    "x": "812px",
+    "y": "444px"
+  }
+]
