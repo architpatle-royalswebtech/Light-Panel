@@ -969,6 +969,7 @@ const API_BASE_URL =
   import.meta.env.MODE === "development"
     ? "http://localhost:8080/api"
     : "https://light-panel-muvs.onrender.com/api";
+    
 
 const App = () => {
   const [authStage, setAuthStage] = useState("initial"); // initial | otp | authenticated
