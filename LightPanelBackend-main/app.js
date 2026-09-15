@@ -10,7 +10,7 @@ const allowedOrigins = [
     "http://localhost:5173",
     "https://lightpanel-new.netlify.app",
     "https://lightpanelnew.netlify.app",
-    "https://lightpanelupdated.netlify.app/"
+    "https://lightpanelupdated.netlify.app"
 
 ];
 
