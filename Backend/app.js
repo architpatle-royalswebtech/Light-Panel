@@ -14,7 +14,7 @@ const routers = require("./router")
 const allowedOrigins = [
     "http://localhost:5173",
     "https://lightpanelupdated.netlify.app",
-    "https://light-panel-six.vercel.app/"
+    "https://light-panel-six.vercel.app"
 
 ];
 
