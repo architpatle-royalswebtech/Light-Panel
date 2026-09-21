@@ -163,7 +163,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./LightPanel.css";
 import Button from "../assets/Editbtn";
-import LoaderLight from "../assets/loader";
+import LoaderLight from "../assets/Loader";
 // import CartDisplay from "./cartDisplay";
 import { Link } from "react-router-dom";
 
