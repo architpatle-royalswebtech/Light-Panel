@@ -10,7 +10,7 @@ const CartSystem = ({ cartData, selectedCart, setSelectedCart, updateCart }) => 
     const fetchCart = async () => {
       if (!selectedCart) return;
       try {
-        const res = await axios.get(`https://lightpanelbackend-3bkt.onrender.com/api/cart/${selectedCart}`);
+        const res = await axios.get(`https://light-panel-muvs.onrender.com/api/cart/${selectedCart}`);
         const cart = res.data;
         updateCart(selectedCart, cart.items || []);
       } catch (e) {
@@ -35,7 +35,7 @@ const CartSystem = ({ cartData, selectedCart, setSelectedCart, updateCart }) => 
       } else if (choice === "use") {
         const name = prompt("Enter cart name:");
         try {
-          const res = await axios.get(`https://lightpanelbackend-3bkt.onrender.com/api/cart/${name}`);
+          const res = await axios.get(`https://light-panel-muvs.onrender.com/api/cart/${name}`);
           const cart = res.data;
           setSelectedCart(name);  
           updateCart(name, cart.items || []);
@@ -68,7 +68,7 @@ const CartSystem = ({ cartData, selectedCart, setSelectedCart, updateCart }) => 
 
   const saveCart = async (name, items) => {
     try {
-      await axios.post("https://lightpanelbackend-3bkt.onrender.com/api/carts", {
+      await axios.post("https://light-panel-muvs.onrender.com/api/carts", {
         cartName: name,
         items: items,
       });

@@ -27,7 +27,7 @@ const CartsPage = () => {
 
   const fetchAllCarts = async () => {
     try {
-      const response = await axios.get("https://lightpanelbackend-3bkt.onrender.com/api/allcarts");
+      const response = await axios.get("https://light-panel-muvs.onrender.com/api/allcarts");
       setAllCarts(response.data.carts);
     } catch (err) {
       console.error("Error fetching carts:", err);
@@ -41,7 +41,7 @@ const CartsPage = () => {
       setEditingField(null);
     } else {
       try {
-        const res = await axios.get(`https://lightpanelbackend-3bkt.onrender.com/api/cart/${cartName}`);
+        const res = await axios.get(`https://light-panel-muvs.onrender.com/api/cart/${cartName}`);
         setSelectedCart(cartName);
         setSelectedCartData(res.data);
         setTempAddress(res.data.address || '');
@@ -71,7 +71,7 @@ const CartsPage = () => {
     };
     
     
-    await axios.post("https://lightpanelbackend-3bkt.onrender.com/api/carts", {
+    await axios.post("https://light-panel-muvs.onrender.com/api/carts", {
       cartName: selectedCart,
       items: selectedCartData.items,
       address: updatedData.address,
@@ -143,7 +143,7 @@ const CartsPage = () => {
     }
 
     try {
-      await axios.delete(`https://lightpanelbackend-3bkt.onrender.com/api/cart/${selectedCart}`);
+      await axios.delete(`https://light-panel-muvs.onrender.com/api/cart/${selectedCart}`);
       alert("Cart deleted successfully.");
       fetchAllCarts();
       setSelectedCart(null);
@@ -171,7 +171,7 @@ const CartsPage = () => {
 
  const saveChanges = async () => {
   try {
-    await axios.post("https://lightpanelbackend-3bkt.onrender.com/api/carts", {
+    await axios.post("https://light-panel-muvs.onrender.com/api/carts", {
       cartName: selectedCart,
       items: selectedCartData.items,
       address: selectedCartData.address || '',

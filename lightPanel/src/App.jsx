@@ -16,21 +16,21 @@
 
 //       <Routes>
 //         <Route path="/" element={<Layout />} >
-//           <Route path="/hybec1" element={<LightPanel2 pic='/Hybec1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH1" />} />
-//           <Route path="/wall1" element={<LightPanel pic='/Wall1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/data1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" />} />
-//           <Route index element={<LightPanel pic="/LightPanel.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" />} />
-//           <Route path="/wall3" element={<LightPanel pic="/Wall3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata3" />} />
-//           <Route path="/wall4" element={<LightPanel pic="/Wall4.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data4" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata4" />} />
-//          <Route path="/gatelight" element={<LightPanel3 pic="/Gatelights.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataGl" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/dataFl" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataCl" GardenSpikeData="https://lightpanelbackend-3bkt.onrender.com/api/dataGs" />} />
-//           {/* <Route path="/wall4" element={<LightPanel pic="/Wall4.jpg"  LightData="https://lightpanelbackend-3bkt.onrender.com/api/data"/>} />  
-//         <Route path="/wall5" element={<LightPanel pic="/Wall5.jpg"  LightData="https://lightpanelbackend-3bkt.onrender.com/api/data"/>} /> */}
+//           <Route path="/hybec1" element={<LightPanel2 pic='/Hybec1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH1" />} />
+//           <Route path="/wall1" element={<LightPanel pic='/Wall1.jpg' LightData="https://light-panel-muvs.onrender.com/api/data1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata1" />} />
+//           <Route index element={<LightPanel pic="/LightPanel.jpg" LightData="https://light-panel-muvs.onrender.com/api/data" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata" />} />
+//           <Route path="/wall3" element={<LightPanel pic="/Wall3.jpg" LightData="https://light-panel-muvs.onrender.com/api/data3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata3" />} />
+//           <Route path="/wall4" element={<LightPanel pic="/Wall4.jpg" LightData="https://light-panel-muvs.onrender.com/api/data4" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata4" />} />
+//          <Route path="/gatelight" element={<LightPanel3 pic="/Gatelights.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataGl" bollardData="https://light-panel-muvs.onrender.com/api/dataFl" CellingData="https://light-panel-muvs.onrender.com/api/dataCl" GardenSpikeData="https://light-panel-muvs.onrender.com/api/dataGs" />} />
+//           {/* <Route path="/wall4" element={<LightPanel pic="/Wall4.jpg"  LightData="https://light-panel-muvs.onrender.com/api/data"/>} />  
+//         <Route path="/wall5" element={<LightPanel pic="/Wall5.jpg"  LightData="https://light-panel-muvs.onrender.com/api/data"/>} /> */}
 
 //           <Route
 //             path="/nav2"
 //             element={
 //               <>
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update" title="Wall Lamps & FootLamp" />
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb" title="Nirvana Bollards" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update" title="Wall Lamps & FootLamp" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb" title="Nirvana Bollards" />
 //               </>
 //             }
 //           />
@@ -38,8 +38,8 @@
 //             path="/nav"
 //             element={
 //               <>
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update1" title="Wall Lamps & FootLamp" />
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb1" title="K Lite Bollards" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update1" title="Wall Lamps & FootLamp" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata1" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb1" title="K Lite Bollards" />
 //               </>
 //             }
 //           />
@@ -47,8 +47,8 @@
 //             path="/nav3"
 //             element={
 //               <>
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update3" title="Wall / Lamp Flood Light & FootLamp" />
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb3" title="Nirvana Bollards (Floor)" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data3" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update3" title="Wall / Lamp Flood Light & FootLamp" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata3" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb3" title="Nirvana Bollards (Floor)" />
 //               </>
 //             }
 //           />
@@ -56,8 +56,8 @@
 //             path="/nav4"
 //             element={
 //               <>
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data4" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId4/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update4" title="Wall / Lamp Flood Light & FootLamp" />
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata4" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId4/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb4" title="Nirvana Bollards (Floor)" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data4" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId4/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update4" title="Wall / Lamp Flood Light & FootLamp" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata4" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId4/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb4" title="Nirvana Bollards (Floor)" />
 //               </>
 //             }
 //           />
@@ -66,7 +66,7 @@
 //             path="/navHybec1"
 //             element={
 //               <>
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataH1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdH1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateH1" title="Hybec 1" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataH1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdH1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateH1" title="Hybec 1" />
 //               </>
 //             }
 //           />
@@ -75,10 +75,10 @@
 //             path="/Gatelightnav"
 //             element={
 //               <>
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataGl" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdGl/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateGl" title="GateLight" />
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataFl" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdFl/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl" title="FootLamp/ Wall Light" />
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataCl" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdCl/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateCl" title="Ceiling Light" />
-//                 <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataGs" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdGs/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateGs" title="Garden Spike" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataGl" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdGl/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateGl" title="GateLight" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataFl" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdFl/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl" title="FootLamp/ Wall Light" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataCl" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdCl/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateCl" title="Ceiling Light" />
+//                 <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataGs" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdGs/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateGs" title="Garden Spike" />
 
 //               </>
 //             }
@@ -112,7 +112,7 @@
 // const API_BASE_URL =
 //   import.meta.env.MODE === "development"
 //     ? "http://localhost:8080/api"
-//     : "https://lightpanelbackend-3bkt.onrender.com/api";
+//     : "https://light-panel-muvs.onrender.com/api";
 
 // const App = () => {
 //   const [authStage, setAuthStage] = useState("initial"); // initial, otp, authenticated
@@ -398,43 +398,43 @@
 //               <Route path="/" element={<Layout />}>
 //                 <Route path="/login" element={<AdminLogin onLogin={() => setIsAuthenticated(true)} />
 //                 } />
-//                 <Route path="/hanging1" element={<LightPanelWithCart pic='/Hanging1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging1" />} />
+//                 <Route path="/hanging1" element={<LightPanelWithCart pic='/Hanging1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataHanging1" />} />
 
-//                  <Route path="/Astberg" element={<LightPanelWithCart pic='/Astberg.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataAstberg" />} />
+//                  <Route path="/Astberg" element={<LightPanelWithCart pic='/Astberg.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataAstberg" />} />
 
 
             
-//                 <Route path="/hanging2" element={<LightPanelWithCart pic='/Hanging2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging2" />} />
+//                 <Route path="/hanging2" element={<LightPanelWithCart pic='/Hanging2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataHanging2" />} />
 
-//                 <Route path="/hybec1" element={<LightPanelWithCart pic='/Hybec1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH1" />} />
-//                 <Route path="/hybec2" element={<LightPanelWithCart pic='/Hybec2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH2" />} />
+//                 <Route path="/hybec1" element={<LightPanelWithCart pic='/Hybec1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH1" />} />
+//                 <Route path="/hybec2" element={<LightPanelWithCart pic='/Hybec2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH2" />} />
 
-//                 <Route path="/nirvana1" element={<LightPanelWithCart pic='/Nirvana1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana1" />} />
-//                 <Route path="/nirvana2" element={<LightPanelWithCart pic='/Nirvana2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana2" />} />
+//                 <Route path="/nirvana1" element={<LightPanelWithCart pic='/Nirvana1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataNirvana1" />} />
+//                 <Route path="/nirvana2" element={<LightPanelWithCart pic='/Nirvana2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataNirvana2" />} />
 
-//                 <Route path="/philips" element={<LightPanelWithCart pic='/Philips.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataPhilips" />} />
+//                 <Route path="/philips" element={<LightPanelWithCart pic='/Philips.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataPhilips" />} />
 
-//                 <Route path="/SC1" element={<LightPanelWithCart pic='/SurfaceCOB.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataSC1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataSC2" />} />
+//                 <Route path="/SC1" element={<LightPanelWithCart pic='/SurfaceCOB.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataSC1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataSC2" />} />
 
-//                 <Route path="/exhaustfan1" element={<LightPanelWithCart pic='/ExhaustFans.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataExhaustFan2" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan3" />} />
+//                 <Route path="/exhaustfan1" element={<LightPanelWithCart pic='/ExhaustFans.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataExhaustFan1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataExhaustFan2" CellingData="https://light-panel-muvs.onrender.com/api/dataExhaustFan3" />} />
 
 
-//                 <Route path="/wall1" element={<LightPanelWithCart wallName="Wall1" pic='/Wall1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/data1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata1"  />} />
-//                 <Route index element={<LightPanel3 pic="/LightPanel.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata2" />} />
-//                 <Route path="/wall3" element={<LightPanelWithCart wallName="Wall3" pic="/Wall3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata3" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata3"  />} />
-//                 <Route path="/wall4" element={<LightPanelWithCart wallName="Wall4" pic="/Wall4.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data4" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata4" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata4" />} />  
+//                 <Route path="/wall1" element={<LightPanelWithCart wallName="Wall1" pic='/Wall1.jpg' LightData="https://light-panel-muvs.onrender.com/api/data1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata1" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata1"  />} />
+//                 <Route index element={<LightPanel3 pic="/LightPanel.jpg" LightData="https://light-panel-muvs.onrender.com/api/data" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata2" />} />
+//                 <Route path="/wall3" element={<LightPanelWithCart wallName="Wall3" pic="/Wall3.jpg" LightData="https://light-panel-muvs.onrender.com/api/data3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata3" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata3"  />} />
+//                 <Route path="/wall4" element={<LightPanelWithCart wallName="Wall4" pic="/Wall4.jpg" LightData="https://light-panel-muvs.onrender.com/api/data4" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata4" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata4" />} />  
 
-//                 <Route path="/wall5" element={<LightPanelWithCart wallName="Wall5" pic="/Wall5.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data5" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata5" />} />
+//                 <Route path="/wall5" element={<LightPanelWithCart wallName="Wall5" pic="/Wall5.jpg" LightData="https://light-panel-muvs.onrender.com/api/data5" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata5" />} />
                 
 //                 <Route path="/carts" element={<CartsPage />} />  {/* ✅ Newly added */}
               
-//                 <Route path="/Fan1" element={<LightPanelWithCart pic="/Fan1.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl1" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataF1T" />} />
-//                 <Route path="/Fan2" element={<LightPanelWithCart pic="/Fan2.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF2" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl2" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataF2T" />} />
-//                 <Route path="/Geyser2" element={<LightPanelWithCart pic="/Geysers2.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataG2" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataG2Filter" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataG2Fan" />} />
+//                 <Route path="/Fan1" element={<LightPanelWithCart pic="/Fan1.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl1" CellingData="https://light-panel-muvs.onrender.com/api/dataF1T" />} />
+//                 <Route path="/Fan2" element={<LightPanelWithCart pic="/Fan2.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF2" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl2" CellingData="https://light-panel-muvs.onrender.com/api/dataF2T" />} />
+//                 <Route path="/Geyser2" element={<LightPanelWithCart pic="/Geysers2.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataG2" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataG2Filter" CellingData="https://light-panel-muvs.onrender.com/api/dataG2Fan" />} />
 
-//                 <Route path="/Fan3" element={<LightPanelWithCart pic="/Fan3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl3" />} />
+//                 <Route path="/Fan3" element={<LightPanelWithCart pic="/Fan3.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl3" />} />
 
-//                 <Route path="/gatelight" element={<LightPanelWithCart pic="/Gatelights.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataGl" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/dataFl" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataCl" GardenSpikeData="https://lightpanelbackend-3bkt.onrender.com/api/dataGs" />} />
+//                 <Route path="/gatelight" element={<LightPanelWithCart pic="/Gatelights.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataGl" bollardData="https://light-panel-muvs.onrender.com/api/dataFl" CellingData="https://light-panel-muvs.onrender.com/api/dataCl" GardenSpikeData="https://light-panel-muvs.onrender.com/api/dataGs" />} />
 
 //                 {/* tables */}
 
@@ -461,8 +461,8 @@
 //                 path="/navSC1"
 //                 element={
               //     <>
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataSC1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdSC1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateSC1" title="SurfaceCOB 1" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataSC2" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbIdSC2/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateSC2" title="SurfaceCOB 2" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataSC1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdSC1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateSC1" title="SurfaceCOB 1" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataSC2" searchUrl={"https://light-panel-muvs.onrender.com/api/getbIdSC2/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateSC2" title="SurfaceCOB 2" />
               //     </>
               //   }
               // />
@@ -471,9 +471,9 @@
               //   path="/nav2"
               //   element={
               //     <>
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update" title="Wall Lamps" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb" title="Nirvana Bollards" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata2" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId2/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp2" title="FootLamp" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update" title="Wall Lamps" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb" title="Nirvana Bollards" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata2" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId2/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp2" title="FootLamp" />
 
               //     </>
               //   }
@@ -483,9 +483,9 @@
               //   path="/nav"
               //   element={
               //     <>
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update1" title="Wall Lamps" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb1" title="K Lite Bollards" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp1" title="FootLamp" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update1" title="Wall Lamps" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata1" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb1" title="K Lite Bollards" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata1" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp1" title="FootLamp" />
 
               //     </>
               //   }
@@ -495,9 +495,9 @@
               //   path="/nav3"
               //   element={
               //     <>
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update3" title="Wall / Lamp Flood Light & FootLamp" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb3" title="Nirvana Bollards (Floor)" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp3" title="FootLamp" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data3" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update3" title="Wall / Lamp Flood Light & FootLamp" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata3" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb3" title="Nirvana Bollards (Floor)" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata3" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp3" title="FootLamp" />
 
               //     </>
               //   }
@@ -507,9 +507,9 @@
               //   path="/nav4"
               //   element={
               //     <>
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data4" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId4/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update4" title="Wall / Lamp Flood Light & FootLamp" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata4" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId4/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb4" title="Bollards (Floor)" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata4" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId4/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp4" title="FootLamp" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data4" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId4/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update4" title="Wall / Lamp Flood Light & FootLamp" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata4" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId4/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb4" title="Bollards (Floor)" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata4" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId4/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp4" title="FootLamp" />
 
               //     </>
               //   }
@@ -519,8 +519,8 @@
               //   path="/nav5"
               //   element={
               //     <>
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data5" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId5/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update5" title="Wall / Lamp Flood Light & FootLamp" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata5" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId5/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb5" title="Nirvana Bollards (Floor)" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data5" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId5/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update5" title="Wall / Lamp Flood Light & FootLamp" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata5" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId5/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb5" title="Nirvana Bollards (Floor)" />
               //     </>
               //   }
               // />
@@ -530,65 +530,65 @@
               //   path="/navFan3"
               //   element={
               //     <>
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF3" title="Fan3 " />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbIdFl3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl3" title="Light" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF3" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdF3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF3" title="Fan3 " />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataFl3" searchUrl={"https://light-panel-muvs.onrender.com/api/getbIdFl3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl3" title="Light" />
               //     </>
               //   }
               // />
 
 
-              // <Route path="/navHybec1" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataH1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdH1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateH1" title="Hybec 1" />} />
-              // <Route path="/navHybec2" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataH2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdH2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateH2" title="Hybec 2" />} />
+              // <Route path="/navHybec1" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataH1" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdH1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateH1" title="Hybec 1" />} />
+              // <Route path="/navHybec2" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataH2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdH2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateH2" title="Hybec 2" />} />
 
-              // <Route path="/navNirvana1" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdNirvana1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateNirvana1" title="Nirvana 1" />} />
-              // <Route path="/navNirvana2" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdNirvana2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateNirvana2" title="Nirvana 2" />} />
+              // <Route path="/navNirvana1" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataNirvana1" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdNirvana1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateNirvana1" title="Nirvana 1" />} />
+              // <Route path="/navNirvana2" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataNirvana2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdNirvana2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateNirvana2" title="Nirvana 2" />} />
 
-              // <Route path="/navPhilips" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataPhilips" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdPhilips/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updatePhilips" title="Philips" />} />
+              // <Route path="/navPhilips" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataPhilips" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdPhilips/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updatePhilips" title="Philips" />} />
 
               // <Route path="/Gatelightnav" element={
               //   <>
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataGl" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdGl/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateGl" title="GateLight" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataFl" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdFl/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl" title="FootLamp/ Wall Light" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataCl" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdCl/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateCl" title="Ceiling Light" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataGs" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdGs/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateGs" title="Garden Spike" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataGl" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdGl/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateGl" title="GateLight" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataFl" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdFl/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl" title="FootLamp/ Wall Light" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataCl" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdCl/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateCl" title="Ceiling Light" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataGs" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdGs/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateGs" title="Garden Spike" />
               //   </>
 
               // } />
               // <Route path="/navFan1" element={
               //   <>
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF1" title="Fan1" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getbIdFl1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl1" title="Light" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF1T" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF1T/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF1T" title="Fan1 light 2" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF1" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdF1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF1" title="Fan1" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataFl1" searchUrl="https://light-panel-muvs.onrender.com/api/getbIdFl1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl1" title="Light" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF1T" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdF1T/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF1T" title="Fan1 light 2" />
               //   </>
               // } />
 
               // <Route path="/navGeysers1" element={
               //   <>
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataG2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdG2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateG2" title="Geyser" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataG2Filter" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getbIdG2Filter/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateG2Filter" title="Filter" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataG2Fan" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdG2Fan/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateG2Fan" title="Fan" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataG2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdG2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateG2" title="Geyser" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataG2Filter" searchUrl="https://light-panel-muvs.onrender.com/api/getbIdG2Filter/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateG2Filter" title="Filter" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataG2Fan" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdG2Fan/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateG2Fan" title="Fan" />
               //   </>
               // } />
               // <Route path="/navFan2" element={
               //   <>
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF2" title="Fan2" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getbIdFl2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl2" title="Light" />
-              //     <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF2T" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF2T/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF2T" title="Fan2 light 2" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdF2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF2" title="Fan2" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataFl2" searchUrl="https://light-panel-muvs.onrender.com/api/getbIdFl2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl2" title="Light" />
+              //     <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF2T" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdF2T/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF2T" title="Fan2 light 2" />
               //   </>
               // } />
-              // <Route path="/navHanging1" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdHanging1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateHanging1" title="Hanging 1" />} />
+              // <Route path="/navHanging1" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataHanging1" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdHanging1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateHanging1" title="Hanging 1" />} />
 
-              // <Route path="/navAstberg"element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataAstberg"searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdAstberg/"UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateAstberg"title="Astberg"/>}/>
+              // <Route path="/navAstberg"element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataAstberg"searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdAstberg/"UpdateUrl="https://light-panel-muvs.onrender.com/api/updateAstberg"title="Astberg"/>}/>
 
 
-              // <Route path="/navHanging2" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdHanging2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateHanging2" title="Hanging 2" />} />
+              // <Route path="/navHanging2" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataHanging2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdHanging2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateHanging2" title="Hanging 2" />} />
               // <Route
               //   path="/navExhaustFan1"
               //   element={
               //     <>
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdExhaustFan1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateExhaustFan1" title="Exhaust Fan 1" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataExhaustFan2" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbIdExhaustFan2/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateExhaustFan2" title="Exhaust Fan 1" />
-              //       <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdExhaustFan3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateExhaustFan3" title="Wallfan" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataExhaustFan1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdExhaustFan1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateExhaustFan1" title="Exhaust Fan 1" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataExhaustFan2" searchUrl={"https://light-panel-muvs.onrender.com/api/getbIdExhaustFan2/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateExhaustFan2" title="Exhaust Fan 1" />
+              //       <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataExhaustFan3" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdExhaustFan3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateExhaustFan3" title="Wallfan" />
 
               //     </>
               //   }
@@ -623,7 +623,7 @@
 // const API_BASE_URL =
 //   import.meta.env.MODE === "development"
 //     ? "http://localhost:8080/api"
-//     : "https://lightpanelbackend-3bkt.onrender.com/api";
+//     : "https://light-panel-muvs.onrender.com/api";
 
 // const App = () => {
 //   const [authStage, setAuthStage] = useState("initial"); // initial, otp, authenticated
@@ -897,47 +897,47 @@
 //       <Routes>
 //         <Route path="/" element={<Layout />}>
 //           {/* Product pages */}
-//           <Route path="/hanging1" element={<LightPanelWithCart pic='/Hanging1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging1" />} />
-//           <Route path="/Astberg" element={<LightPanelWithCart pic='/Astberg.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataAstberg" />} />
-//           <Route path="/hanging2" element={<LightPanelWithCart pic='/Hanging2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging2" />} />
-//           <Route path="/hybec1" element={<LightPanelWithCart pic='/Hybec1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH1" />} />
-//           <Route path="/hybec2" element={<LightPanelWithCart pic='/Hybec2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH2" />} />
-//           <Route path="/nirvana1" element={<LightPanelWithCart pic='/Nirvana1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana1" />} />
-//           <Route path="/nirvana2" element={<LightPanelWithCart pic='/Nirvana2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana2" />} />
-//           <Route path="/philips" element={<LightPanelWithCart pic='/Philips.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataPhilips" />} />
-//           <Route path="/SC1" element={<LightPanelWithCart pic='/SurfaceCOB.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataSC1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataSC2" />} />
-//           <Route path="/exhaustfan1" element={<LightPanelWithCart pic='/ExhaustFans.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataExhaustFan2" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan3" />} />
-//           <Route path="/wall1" element={<LightPanelWithCart wallName="Wall1" pic='/Wall1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/data1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata1"  />} />
-//           <Route index element={<LightPanel3 pic="/LightPanel.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata2" />} />
-//           <Route path="/wall3" element={<LightPanelWithCart wallName="Wall3" pic="/Wall3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata3" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata3"  />} />
-//           <Route path="/wall4" element={<LightPanelWithCart wallName="Wall4" pic="/Wall4.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data4" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata4" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata4" />} />  
-//           <Route path="/wall5" element={<LightPanelWithCart wallName="Wall5" pic="/Wall5.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data5" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata5" />} />
+//           <Route path="/hanging1" element={<LightPanelWithCart pic='/Hanging1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataHanging1" />} />
+//           <Route path="/Astberg" element={<LightPanelWithCart pic='/Astberg.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataAstberg" />} />
+//           <Route path="/hanging2" element={<LightPanelWithCart pic='/Hanging2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataHanging2" />} />
+//           <Route path="/hybec1" element={<LightPanelWithCart pic='/Hybec1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH1" />} />
+//           <Route path="/hybec2" element={<LightPanelWithCart pic='/Hybec2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH2" />} />
+//           <Route path="/nirvana1" element={<LightPanelWithCart pic='/Nirvana1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataNirvana1" />} />
+//           <Route path="/nirvana2" element={<LightPanelWithCart pic='/Nirvana2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataNirvana2" />} />
+//           <Route path="/philips" element={<LightPanelWithCart pic='/Philips.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataPhilips" />} />
+//           <Route path="/SC1" element={<LightPanelWithCart pic='/SurfaceCOB.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataSC1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataSC2" />} />
+//           <Route path="/exhaustfan1" element={<LightPanelWithCart pic='/ExhaustFans.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataExhaustFan1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataExhaustFan2" CellingData="https://light-panel-muvs.onrender.com/api/dataExhaustFan3" />} />
+//           <Route path="/wall1" element={<LightPanelWithCart wallName="Wall1" pic='/Wall1.jpg' LightData="https://light-panel-muvs.onrender.com/api/data1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata1" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata1"  />} />
+//           <Route index element={<LightPanel3 pic="/LightPanel.jpg" LightData="https://light-panel-muvs.onrender.com/api/data" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata2" />} />
+//           <Route path="/wall3" element={<LightPanelWithCart wallName="Wall3" pic="/Wall3.jpg" LightData="https://light-panel-muvs.onrender.com/api/data3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata3" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata3"  />} />
+//           <Route path="/wall4" element={<LightPanelWithCart wallName="Wall4" pic="/Wall4.jpg" LightData="https://light-panel-muvs.onrender.com/api/data4" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata4" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata4" />} />  
+//           <Route path="/wall5" element={<LightPanelWithCart wallName="Wall5" pic="/Wall5.jpg" LightData="https://light-panel-muvs.onrender.com/api/data5" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata5" />} />
 //           <Route path="/carts" element={<CartsPage />} />
-//           <Route path="/Fan1" element={<LightPanelWithCart pic="/Fan1.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl1" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataF1T" />} />
-//           <Route path="/Fan2" element={<LightPanelWithCart pic="/Fan2.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF2" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl2" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataF2T" />} />
-//           <Route path="/Geyser2" element={<LightPanelWithCart pic="/Geysers2.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataG2" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataG2Filter" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataG2Fan" />} />
-//           <Route path="/Fan3" element={<LightPanelWithCart pic="/Fan3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl3" />} />
-//           <Route path="/gatelight" element={<LightPanelWithCart pic="/Gatelights.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataGl" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/dataFl" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataCl" GardenSpikeData="https://lightpanelbackend-3bkt.onrender.com/api/dataGs" />} />
+//           <Route path="/Fan1" element={<LightPanelWithCart pic="/Fan1.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl1" CellingData="https://light-panel-muvs.onrender.com/api/dataF1T" />} />
+//           <Route path="/Fan2" element={<LightPanelWithCart pic="/Fan2.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF2" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl2" CellingData="https://light-panel-muvs.onrender.com/api/dataF2T" />} />
+//           <Route path="/Geyser2" element={<LightPanelWithCart pic="/Geysers2.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataG2" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataG2Filter" CellingData="https://light-panel-muvs.onrender.com/api/dataG2Fan" />} />
+//           <Route path="/Fan3" element={<LightPanelWithCart pic="/Fan3.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl3" />} />
+//           <Route path="/gatelight" element={<LightPanelWithCart pic="/Gatelights.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataGl" bollardData="https://light-panel-muvs.onrender.com/api/dataFl" CellingData="https://light-panel-muvs.onrender.com/api/dataCl" GardenSpikeData="https://light-panel-muvs.onrender.com/api/dataGs" />} />
 
 //           {/* Admin management routes */}
 //           <Route path="/navSC1" element={
 //             <>
-//               <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataSC1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdSC1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateSC1" title="SurfaceCOB 1" />
-//               <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataSC2" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbIdSC2/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateSC2" title="SurfaceCOB 2" />
+//               <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataSC1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdSC1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateSC1" title="SurfaceCOB 1" />
+//               <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataSC2" searchUrl={"https://light-panel-muvs.onrender.com/api/getbIdSC2/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateSC2" title="SurfaceCOB 2" />
 //             </>
 //           } />
 //           <Route path="/nav2" element={
 //             <>
-//               <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update" title="Wall Lamps" />
-//               <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb" title="Nirvana Bollards" />
-//               <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata2" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId2/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp2" title="FootLamp" />
+//               <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update" title="Wall Lamps" />
+//               <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb" title="Nirvana Bollards" />
+//               <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata2" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId2/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp2" title="FootLamp" />
 //             </>
 //           } />
 //           <Route path="/nav" element={
 //             <>
-//               <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update1" title="Wall Lamps" />
-//               <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb1" title="K Lite Bollards" />
-//               <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp1" title="FootLamp" />
+//               <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update1" title="Wall Lamps" />
+//               <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata1" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb1" title="K Lite Bollards" />
+//               <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata1" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp1" title="FootLamp" />
 //             </>
 //           } />
 //           {/* ... include all your other admin routes here ... */}
@@ -969,6 +969,8 @@ const API_BASE_URL =
   import.meta.env.MODE === "development"
     ? "http://localhost:8080/api"
     : "https://light-panel-muvs.onrender.com/api";
+
+    // https://lightpanelbackend-3bkt.on render.com/api   see for the extra space on render
     
 
 const App = () => {
@@ -1274,27 +1276,27 @@ const handleLogout = (redirectTo = "/") => {
           {/* Product pages */}
 
           {/* Product pages */}
-          <Route path="/hanging1" element={<LightPanelWithCart pic='/Hanging1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging1" />} />
-          <Route path="/Astberg" element={<LightPanelWithCart pic='/Astberg.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataAstberg" />} />
-          <Route path="/hanging2" element={<LightPanelWithCart pic='/Hanging2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging2" />} />
-          <Route path="/hybec1" element={<LightPanelWithCart pic='/Hybec1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH1" />} />
-          <Route path="/hybec2" element={<LightPanelWithCart pic='/Hybec2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH2" />} />
-          <Route path="/nirvana1" element={<LightPanelWithCart pic='/Nirvana1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana1" />} />
-          <Route path="/nirvana2" element={<LightPanelWithCart pic='/Nirvana2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana2" />} />
-          <Route path="/philips" element={<LightPanelWithCart pic='/Philips.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataPhilips" />} />
-          <Route path="/SC1" element={<LightPanelWithCart pic='/SurfaceCOB.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataSC1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataSC2" />} />
-          <Route path="/exhaustfan1" element={<LightPanelWithCart pic='/ExhaustFans.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataExhaustFan2" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan3" />} />
-          <Route path="/wall1" element={<LightPanelWithCart wallName="Wall1" pic='/Wall1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/data1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata1"  />} />
-          <Route index element={<LightPanel3 pic="/LightPanel.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata2" />} />
-          <Route path="/wall3" element={<LightPanelWithCart wallName="Wall3" pic="/Wall3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata3" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata3"  />} />
-          <Route path="/wall4" element={<LightPanelWithCart wallName="Wall4" pic="/Wall4.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data4" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata4" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata4" />} />  
-          <Route path="/wall5" element={<LightPanelWithCart wallName="Wall5" pic="/Wall5.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data5" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata5" />} />
+          <Route path="/hanging1" element={<LightPanelWithCart pic='/Hanging1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataHanging1" />} />
+          <Route path="/Astberg" element={<LightPanelWithCart pic='/Astberg.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataAstberg" />} />
+          <Route path="/hanging2" element={<LightPanelWithCart pic='/Hanging2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataHanging2" />} />
+          <Route path="/hybec1" element={<LightPanelWithCart pic='/Hybec1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH1" />} />
+          <Route path="/hybec2" element={<LightPanelWithCart pic='/Hybec2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH2" />} />
+          <Route path="/nirvana1" element={<LightPanelWithCart pic='/Nirvana1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataNirvana1" />} />
+          <Route path="/nirvana2" element={<LightPanelWithCart pic='/Nirvana2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataNirvana2" />} />
+          <Route path="/philips" element={<LightPanelWithCart pic='/Philips.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataPhilips" />} />
+          <Route path="/SC1" element={<LightPanelWithCart pic='/SurfaceCOB.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataSC1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataSC2" />} />
+          <Route path="/exhaustfan1" element={<LightPanelWithCart pic='/ExhaustFans.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataExhaustFan1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataExhaustFan2" CellingData="https://light-panel-muvs.onrender.com/api/dataExhaustFan3" />} />
+          <Route path="/wall1" element={<LightPanelWithCart wallName="Wall1" pic='/Wall1.jpg' LightData="https://light-panel-muvs.onrender.com/api/data1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata1" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata1"  />} />
+          <Route index element={<LightPanel3 pic="/LightPanel.jpg" LightData="https://light-panel-muvs.onrender.com/api/data" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata2" />} />
+          <Route path="/wall3" element={<LightPanelWithCart wallName="Wall3" pic="/Wall3.jpg" LightData="https://light-panel-muvs.onrender.com/api/data3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata3" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata3"  />} />
+          <Route path="/wall4" element={<LightPanelWithCart wallName="Wall4" pic="/Wall4.jpg" LightData="https://light-panel-muvs.onrender.com/api/data4" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata4" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata4" />} />  
+          <Route path="/wall5" element={<LightPanelWithCart wallName="Wall5" pic="/Wall5.jpg" LightData="https://light-panel-muvs.onrender.com/api/data5" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata5" />} />
           <Route path="/carts" element={<CartsPage />} />
-          <Route path="/Fan1" element={<LightPanelWithCart pic="/Fan1.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl1" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataF1T" />} />
-          <Route path="/Fan2" element={<LightPanelWithCart pic="/Fan2.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF2" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl2" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataF2T" />} />
-          <Route path="/Geyser2" element={<LightPanelWithCart pic="/Geysers2.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataG2" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataG2Filter" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataG2Fan" />} />
-          <Route path="/Fan3" element={<LightPanelWithCart pic="/Fan3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl3" />} />
-          <Route path="/gatelight" element={<LightPanelWithCart pic="/Gatelights.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataGl" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/dataFl" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataCl" GardenSpikeData="https://lightpanelbackend-3bkt.onrender.com/api/dataGs" />} />
+          <Route path="/Fan1" element={<LightPanelWithCart pic="/Fan1.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl1" CellingData="https://light-panel-muvs.onrender.com/api/dataF1T" />} />
+          <Route path="/Fan2" element={<LightPanelWithCart pic="/Fan2.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF2" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl2" CellingData="https://light-panel-muvs.onrender.com/api/dataF2T" />} />
+          <Route path="/Geyser2" element={<LightPanelWithCart pic="/Geysers2.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataG2" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataG2Filter" CellingData="https://light-panel-muvs.onrender.com/api/dataG2Fan" />} />
+          <Route path="/Fan3" element={<LightPanelWithCart pic="/Fan3.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl3" />} />
+          <Route path="/gatelight" element={<LightPanelWithCart pic="/Gatelights.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataGl" bollardData="https://light-panel-muvs.onrender.com/api/dataFl" CellingData="https://light-panel-muvs.onrender.com/api/dataCl" GardenSpikeData="https://light-panel-muvs.onrender.com/api/dataGs" />} />
 
 <Route path="/add" element={<AdminLoginWrapper />} />
 
@@ -1302,8 +1304,8 @@ const handleLogout = (redirectTo = "/") => {
           <Route path="/navSC1" element={
             
            <>
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataSC1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdSC1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateSC1" title="SurfaceCOB 1" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataSC2" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbIdSC2/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateSC2" title="SurfaceCOB 2" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataSC1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdSC1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateSC1" title="SurfaceCOB 1" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataSC2" searchUrl={"https://light-panel-muvs.onrender.com/api/getbIdSC2/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateSC2" title="SurfaceCOB 2" />
                   </>
                 }
               />
@@ -1312,9 +1314,9 @@ const handleLogout = (redirectTo = "/") => {
                 path="/nav2"
                 element={
                   <>
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update" title="Wall Lamps" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb" title="Nirvana Bollards" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata2" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId2/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp2" title="FootLamp" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update" title="Wall Lamps" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb" title="Nirvana Bollards" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata2" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId2/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp2" title="FootLamp" />
 
                   </>
                 }
@@ -1324,9 +1326,9 @@ const handleLogout = (redirectTo = "/") => {
                 path="/nav"
                 element={
                   <>
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update1" title="Wall Lamps" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb1" title="K Lite Bollards" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp1" title="FootLamp" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update1" title="Wall Lamps" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata1" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb1" title="K Lite Bollards" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata1" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp1" title="FootLamp" />
 
                   </>
                 }
@@ -1336,9 +1338,9 @@ const handleLogout = (redirectTo = "/") => {
                 path="/nav3"
                 element={
                   <>
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update3" title="Wall / Lamp Flood Light & FootLamp" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb3" title="Nirvana Bollards (Floor)" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp3" title="FootLamp" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data3" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update3" title="Wall / Lamp Flood Light & FootLamp" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata3" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb3" title="Nirvana Bollards (Floor)" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata3" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp3" title="FootLamp" />
 
                   </>
                 }
@@ -1348,9 +1350,9 @@ const handleLogout = (redirectTo = "/") => {
                 path="/nav4"
                 element={
                   <>
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data4" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId4/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update4" title="Wall / Lamp Flood Light & FootLamp" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata4" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId4/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb4" title="Bollards (Floor)" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata4" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getFootlampId4/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFootlamp4" title="FootLamp" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data4" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId4/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update4" title="Wall / Lamp Flood Light & FootLamp" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata4" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId4/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb4" title="Bollards (Floor)" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/Footlampdata4" searchUrl={"https://light-panel-muvs.onrender.com/api/getFootlampId4/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFootlamp4" title="FootLamp" />
 
                   </>
                 }
@@ -1360,8 +1362,8 @@ const handleLogout = (redirectTo = "/") => {
                 path="/nav5"
                 element={
                   <>
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/data5" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightId5/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/update5" title="Wall / Lamp Flood Light & FootLamp" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata5" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbId5/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateb5" title="Nirvana Bollards (Floor)" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/data5" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightId5/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/update5" title="Wall / Lamp Flood Light & FootLamp" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddata5" searchUrl={"https://light-panel-muvs.onrender.com/api/getbId5/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateb5" title="Nirvana Bollards (Floor)" />
                   </>
                 }
               />
@@ -1371,65 +1373,65 @@ const handleLogout = (redirectTo = "/") => {
                 path="/navFan3"
                 element={
                   <>
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF3" title="Fan3 " />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbIdFl3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl3" title="Light" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF3" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdF3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF3" title="Fan3 " />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataFl3" searchUrl={"https://light-panel-muvs.onrender.com/api/getbIdFl3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl3" title="Light" />
                   </>
                 }
               />
 
 
-              <Route path="/navHybec1" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataH1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdH1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateH1" title="Hybec 1" />} />
-              <Route path="/navHybec2" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataH2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdH2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateH2" title="Hybec 2" />} />
+              <Route path="/navHybec1" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataH1" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdH1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateH1" title="Hybec 1" />} />
+              <Route path="/navHybec2" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataH2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdH2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateH2" title="Hybec 2" />} />
 
-              <Route path="/navNirvana1" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdNirvana1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateNirvana1" title="Nirvana 1" />} />
-              <Route path="/navNirvana2" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdNirvana2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateNirvana2" title="Nirvana 2" />} />
+              <Route path="/navNirvana1" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataNirvana1" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdNirvana1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateNirvana1" title="Nirvana 1" />} />
+              <Route path="/navNirvana2" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataNirvana2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdNirvana2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateNirvana2" title="Nirvana 2" />} />
 
-              <Route path="/navPhilips" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataPhilips" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdPhilips/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updatePhilips" title="Philips" />} />
+              <Route path="/navPhilips" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataPhilips" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdPhilips/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updatePhilips" title="Philips" />} />
 
               <Route path="/Gatelightnav" element={
                 <>
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataGl" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdGl/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateGl" title="GateLight" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataFl" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdFl/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl" title="FootLamp/ Wall Light" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataCl" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdCl/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateCl" title="Ceiling Light" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataGs" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdGs/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateGs" title="Garden Spike" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataGl" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdGl/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateGl" title="GateLight" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataFl" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdFl/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl" title="FootLamp/ Wall Light" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataCl" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdCl/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateCl" title="Ceiling Light" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataGs" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdGs/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateGs" title="Garden Spike" />
                 </>
 
               } />
               <Route path="/navFan1" element={
                 <>
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF1" title="Fan1" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getbIdFl1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl1" title="Light" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF1T" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF1T/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF1T" title="Fan1 light 2" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF1" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdF1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF1" title="Fan1" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataFl1" searchUrl="https://light-panel-muvs.onrender.com/api/getbIdFl1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl1" title="Light" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF1T" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdF1T/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF1T" title="Fan1 light 2" />
                 </>
               } />
 
               <Route path="/navGeysers1" element={
                 <>
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataG2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdG2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateG2" title="Geyser" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataG2Filter" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getbIdG2Filter/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateG2Filter" title="Filter" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataG2Fan" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdG2Fan/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateG2Fan" title="Fan" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataG2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdG2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateG2" title="Geyser" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataG2Filter" searchUrl="https://light-panel-muvs.onrender.com/api/getbIdG2Filter/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateG2Filter" title="Filter" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataG2Fan" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdG2Fan/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateG2Fan" title="Fan" />
                 </>
               } />
               <Route path="/navFan2" element={
                 <>
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF2" title="Fan2" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getbIdFl2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateFl2" title="Light" />
-                  <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataF2T" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdF2T/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateF2T" title="Fan2 light 2" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdF2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF2" title="Fan2" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataFl2" searchUrl="https://light-panel-muvs.onrender.com/api/getbIdFl2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateFl2" title="Light" />
+                  <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataF2T" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdF2T/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateF2T" title="Fan2 light 2" />
                 </>
               } />
-              <Route path="/navHanging1" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging1" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdHanging1/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateHanging1" title="Hanging 1" />} />
+              <Route path="/navHanging1" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataHanging1" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdHanging1/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateHanging1" title="Hanging 1" />} />
 
-              <Route path="/navAstberg"element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataAstberg"searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdAstberg/"UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateAstberg"title="Astberg"/>}/>
+              <Route path="/navAstberg"element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataAstberg"searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdAstberg/"UpdateUrl="https://light-panel-muvs.onrender.com/api/updateAstberg"title="Astberg"/>}/>
 
 
-              <Route path="/navHanging2" element={<Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging2" searchUrl="https://lightpanelbackend-3bkt.onrender.com/api/getLightIdHanging2/" UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateHanging2" title="Hanging 2" />} />
+              <Route path="/navHanging2" element={<Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataHanging2" searchUrl="https://light-panel-muvs.onrender.com/api/getLightIdHanging2/" UpdateUrl="https://light-panel-muvs.onrender.com/api/updateHanging2" title="Hanging 2" />} />
               <Route
                 path="/navExhaustFan1"
                 element={
                   <>
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan1" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdExhaustFan1/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateExhaustFan1" title="Exhaust Fan 1" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataExhaustFan2" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getbIdExhaustFan2/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateExhaustFan2" title="Exhaust Fan 1" />
-                    <Nav apiUrl="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan3" searchUrl={"https://lightpanelbackend-3bkt.onrender.com/api/getLightIdExhaustFan3/"} UpdateUrl="https://lightpanelbackend-3bkt.onrender.com/api/updateExhaustFan3" title="Wallfan" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataExhaustFan1" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdExhaustFan1/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateExhaustFan1" title="Exhaust Fan 1" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/bollarddataExhaustFan2" searchUrl={"https://light-panel-muvs.onrender.com/api/getbIdExhaustFan2/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateExhaustFan2" title="Exhaust Fan 1" />
+                    <Nav apiUrl="https://light-panel-muvs.onrender.com/api/dataExhaustFan3" searchUrl={"https://light-panel-muvs.onrender.com/api/getLightIdExhaustFan3/"} UpdateUrl="https://light-panel-muvs.onrender.com/api/updateExhaustFan3" title="Wallfan" />
 
                   </>
                 }
@@ -1719,27 +1721,27 @@ export default App;
 //         <Routes>
 //           <Route path="/" element={<Layout />}>
 //             <Route path="/login" element={<Navigate to="/" replace />} />
-//             <Route path="/hanging1" element={<LightPanelWithCart pic='/Hanging1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging1" />} />
-//             <Route path="/Astberg" element={<LightPanelWithCart pic='/Astberg.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataAstberg" />} />
-//             <Route path="/hanging2" element={<LightPanelWithCart pic='/Hanging2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataHanging2" />} />
-//             <Route path="/hybec1" element={<LightPanelWithCart pic='/Hybec1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH1" />} />
-//             <Route path="/hybec2" element={<LightPanelWithCart pic='/Hybec2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataH2" />} />
-//             <Route path="/nirvana1" element={<LightPanelWithCart pic='/Nirvana1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana1" />} />
-//             <Route path="/nirvana2" element={<LightPanelWithCart pic='/Nirvana2.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataNirvana2" />} />
-//             <Route path="/philips" element={<LightPanelWithCart pic='/Philips.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataPhilips" />} />
-//             <Route path="/SC1" element={<LightPanelWithCart pic='/SurfaceCOB.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataSC1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataSC2" />} />
-//             <Route path="/exhaustfan1" element={<LightPanelWithCart pic='/ExhaustFans.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataExhaustFan2" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataExhaustFan3" />} />
-//             <Route path="/wall1" element={<LightPanelWithCart wallName="Wall1" pic='/Wall1.jpg' LightData="https://lightpanelbackend-3bkt.onrender.com/api/data1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata1" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata1"  />} />
-//             <Route index element={<LightPanel3 pic="/LightPanel.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata2" />} />
-//             <Route path="/wall3" element={<LightPanelWithCart wallName="Wall3" pic="/Wall3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata3" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata3"  />} />
-//             <Route path="/wall4" element={<LightPanelWithCart wallName="Wall4" pic="/Wall4.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data4" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata4" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/Footlampdata4" />} />  
-//             <Route path="/wall5" element={<LightPanelWithCart wallName="Wall5" pic="/Wall5.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/data5" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddata5" />} />
+//             <Route path="/hanging1" element={<LightPanelWithCart pic='/Hanging1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataHanging1" />} />
+//             <Route path="/Astberg" element={<LightPanelWithCart pic='/Astberg.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataAstberg" />} />
+//             <Route path="/hanging2" element={<LightPanelWithCart pic='/Hanging2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataHanging2" />} />
+//             <Route path="/hybec1" element={<LightPanelWithCart pic='/Hybec1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH1" />} />
+//             <Route path="/hybec2" element={<LightPanelWithCart pic='/Hybec2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataH2" />} />
+//             <Route path="/nirvana1" element={<LightPanelWithCart pic='/Nirvana1.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataNirvana1" />} />
+//             <Route path="/nirvana2" element={<LightPanelWithCart pic='/Nirvana2.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataNirvana2" />} />
+//             <Route path="/philips" element={<LightPanelWithCart pic='/Philips.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataPhilips" />} />
+//             <Route path="/SC1" element={<LightPanelWithCart pic='/SurfaceCOB.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataSC1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataSC2" />} />
+//             <Route path="/exhaustfan1" element={<LightPanelWithCart pic='/ExhaustFans.jpg' LightData="https://light-panel-muvs.onrender.com/api/dataExhaustFan1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataExhaustFan2" CellingData="https://light-panel-muvs.onrender.com/api/dataExhaustFan3" />} />
+//             <Route path="/wall1" element={<LightPanelWithCart wallName="Wall1" pic='/Wall1.jpg' LightData="https://light-panel-muvs.onrender.com/api/data1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata1" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata1"  />} />
+//             <Route index element={<LightPanel3 pic="/LightPanel.jpg" LightData="https://light-panel-muvs.onrender.com/api/data" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata2" />} />
+//             <Route path="/wall3" element={<LightPanelWithCart wallName="Wall3" pic="/Wall3.jpg" LightData="https://light-panel-muvs.onrender.com/api/data3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata3" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata3"  />} />
+//             <Route path="/wall4" element={<LightPanelWithCart wallName="Wall4" pic="/Wall4.jpg" LightData="https://light-panel-muvs.onrender.com/api/data4" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata4" CellingData="https://light-panel-muvs.onrender.com/api/Footlampdata4" />} />  
+//             <Route path="/wall5" element={<LightPanelWithCart wallName="Wall5" pic="/Wall5.jpg" LightData="https://light-panel-muvs.onrender.com/api/data5" bollardData="https://light-panel-muvs.onrender.com/api/bollarddata5" />} />
 //             <Route path="/carts" element={<CartsPage />} />
-//             <Route path="/Fan1" element={<LightPanelWithCart pic="/Fan1.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF1" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl1" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataF1T" />} />
-//             <Route path="/Fan2" element={<LightPanelWithCart pic="/Fan2.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF2" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl2" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataF2T" />} />
-//             <Route path="/Geyser2" element={<LightPanelWithCart pic="/Geysers2.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataG2" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataG2Filter" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataG2Fan" />} />
-//             <Route path="/Fan3" element={<LightPanelWithCart pic="/Fan3.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataF3" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/bollarddataFl3" />} />
-//             <Route path="/gatelight" element={<LightPanelWithCart pic="/Gatelights.jpg" LightData="https://lightpanelbackend-3bkt.onrender.com/api/dataGl" bollardData="https://lightpanelbackend-3bkt.onrender.com/api/dataFl" CellingData="https://lightpanelbackend-3bkt.onrender.com/api/dataCl" GardenSpikeData="https://lightpanelbackend-3bkt.onrender.com/api/dataGs" />} />
+//             <Route path="/Fan1" element={<LightPanelWithCart pic="/Fan1.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF1" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl1" CellingData="https://light-panel-muvs.onrender.com/api/dataF1T" />} />
+//             <Route path="/Fan2" element={<LightPanelWithCart pic="/Fan2.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF2" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl2" CellingData="https://light-panel-muvs.onrender.com/api/dataF2T" />} />
+//             <Route path="/Geyser2" element={<LightPanelWithCart pic="/Geysers2.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataG2" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataG2Filter" CellingData="https://light-panel-muvs.onrender.com/api/dataG2Fan" />} />
+//             <Route path="/Fan3" element={<LightPanelWithCart pic="/Fan3.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataF3" bollardData="https://light-panel-muvs.onrender.com/api/bollarddataFl3" />} />
+//             <Route path="/gatelight" element={<LightPanelWithCart pic="/Gatelights.jpg" LightData="https://light-panel-muvs.onrender.com/api/dataGl" bollardData="https://light-panel-muvs.onrender.com/api/dataFl" CellingData="https://light-panel-muvs.onrender.com/api/dataCl" GardenSpikeData="https://light-panel-muvs.onrender.com/api/dataGs" />} />
 //           </Route>
 //         </Routes>
 //       </Router>

@@ -79,7 +79,7 @@ useEffect(() => {
   useEffect(() => {
     const fetchAllCartsFromBackend = async () => {
       try {
-        const response = await axios.get("https://lightpanelbackend-3bkt.onrender.com/api/allcarts");
+        const response = await axios.get("https://light-panel-muvs.onrender.com/api/allcarts");
         const cartList = response.data.carts;
         const structuredCarts = {};
         cartList.forEach((cart) => {
@@ -205,7 +205,7 @@ useEffect(() => {
       setSelectedCart(cartName);
     
       try {
-        await axios.post("https://lightpanelbackend-3bkt.onrender.com/api/carts", {
+        await axios.post("https://light-panel-muvs.onrender.com/api/carts", {
           cartName,
           items: newCartItems,
         });
@@ -304,7 +304,7 @@ useEffect(() => {
     }
 
     try {
-      const response = await axios.post("https://lightpanelbackend-3bkt.onrender.com/api/carts", {
+      const response = await axios.post("https://light-panel-muvs.onrender.com/api/carts", {
         cartName: selectedCart,
         items: carts[selectedCart],
       });

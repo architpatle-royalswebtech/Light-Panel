@@ -10,7 +10,7 @@
 //   useEffect(() => {
 //     const fetchLights = async () => {
 //       try {
-//         const response = await axios.get("https://lightpanelbackend-3bkt.onrender.com/api/data");
+//         const response = await axios.get("https://light-panel-muvs.onrender.com/api/data");
 //         setLights(response.data.data); // Store API data in state
 //       } catch (error) {
 //         console.error("Error fetching light data:", error);
@@ -24,7 +24,7 @@
 //   useEffect(() => {
 //     const fetchLights = async () => {
 //       try {
-//         const response = await axios.get("https://lightpanelbackend-3bkt.onrender.com/api/bollarddata");
+//         const response = await axios.get("https://light-panel-muvs.onrender.com/api/bollarddata");
 //         setbollard(response.data.data); // Store API data in state
 //       } catch (error) {
 //         console.error("Error fetching light data:", error);
@@ -202,7 +202,7 @@ const [selectedCart, setSelectedCart] = useState(null); // current selected cart
   useEffect(() => {
     const fetchAllCartsFromBackend = async () => {
       try {
-        const response = await axios.get("https://lightpanelbackend-3bkt.onrender.com/api/allcarts");
+        const response = await axios.get("https://light-panel-muvs.onrender.com/api/allcarts");
         const cartList = response.data.carts;
   
         const structuredCarts = {};
@@ -283,7 +283,7 @@ const [selectedCart, setSelectedCart] = useState(null); // current selected cart
         setSelectedCart(cartName);
       
         try {
-          await axios.post("https://lightpanelbackend-3bkt.onrender.com/api/carts", {
+          await axios.post("https://light-panel-muvs.onrender.com/api/carts", {
             cartName,
             items: newCartItems,
           });
@@ -301,7 +301,7 @@ const [selectedCart, setSelectedCart] = useState(null); // current selected cart
         if (!name) return;
   
         try {
-          await axios.get(`https://lightpanelbackend-3bkt.onrender.com/api/cart/${cartName}`);
+          await axios.get(`https://light-panel-muvs.onrender.com/api/cart/${cartName}`);
           
 
 alert(`Cart "${name}" .`);
@@ -713,7 +713,7 @@ alert(`Cart "${name}" .`);
     // if (!wallName) return;
 
     try {
-      const response = await axios.post("https://lightpanelbackend-3bkt.onrender.com/api/carts", {
+      const response = await axios.post("https://light-panel-muvs.onrender.com/api/carts", {
         cartName: selectedCart,
         // wallName,
         items: carts[selectedCart],
@@ -781,7 +781,7 @@ export default LightPanel;
 
 // //     const fetchLights = async () => {
 // //       try {
-// //         const response = await axios.get("https://lightpanelbackend-3bkt.onrender.com/api/data");
+// //         const response = await axios.get("https://light-panel-muvs.onrender.com/api/data");
 // //         setLights(response.data.data);
 // //       } catch (error) {
 // //         console.error("Error fetching light data:", error);
@@ -793,7 +793,7 @@ export default LightPanel;
 // //   useEffect(() => {
 // //     const fetchBollards = async () => {
 // //       try {
-// //         const response = await axios.get("https://lightpanelbackend-3bkt.onrender.com/api/bollarddata");
+// //         const response = await axios.get("https://light-panel-muvs.onrender.com/api/bollarddata");
 // //         setBollards(response.data.data);
 // //       } catch (error) {
 // //         console.error("Error fetching bollard data:", error);
