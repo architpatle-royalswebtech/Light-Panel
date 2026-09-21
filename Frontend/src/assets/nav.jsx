@@ -2,7 +2,7 @@ import React, { useState, useEffect  } from 'react';
 import axios from 'axios';
 import "./nav.css"
 import { useLocation, useNavigate } from 'react-router-dom';  // ⬅️ added useNavigate
-import LoaderLight from '../assets/loader';
+import LoaderLight from '../assets/Loader';
 const DataTable = ({ apiUrl , searchUrl , UpdateUrl , title}) => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
