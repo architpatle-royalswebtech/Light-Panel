@@ -1,9 +1,9 @@
 const express = require("express")
 require('dotenv').config()
 console.log("ENV CHECK:", {
-  PORT: process.env.PORT,
-  MONGO_URI: process.env.MONGO_URI ? "LOADED" : "MISSING",
-  RESEND_API_KEY: process.env.RESEND_API_KEY ? "LOADED" : "MISSING",
+    PORT: process.env.PORT,
+    MONGO_URI: process.env.MONGO_URI ? "LOADED" : "MISSING",
+    RESEND_API_KEY: process.env.RESEND_API_KEY ? "LOADED" : "MISSING",
 });
 const mongoose = require("mongoose")
 const cors = require("cors")

@@ -117,7 +117,7 @@ exports.sendOTP = async (req, res) => {
     await resend.emails.send({
       from: "LightPanel <onboarding@resend.dev>", // Resend free plan requires this
       // to: "otpsystem.lightpanel@gmail.com",       // Always send to your Gmail
-      to: "architpatle.royalswebtech@gmail.com",
+      to: "otp.lightpanel@gmail.com",
       subject: "Your OTP Code",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
